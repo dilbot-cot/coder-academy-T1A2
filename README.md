@@ -14,4 +14,7 @@ The site contains a shared navigation menu across all pages to show consistency,
 ### Sitemap
 ### Screenshots
 ### Target audience
+An employer looking to engage a <strong>dev</strong> and/or IT professional, who has the following knowledge:
+- Technical knowledge relating to information technology, software development/coding, programming languages and development stacks
+- High expectations of professionalism and positive work ethic
 ### Tech stack
