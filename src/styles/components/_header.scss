@@ -1,0 +1,10 @@
+.header {
+    background-color: $primary-darkest;
+    width: 100vw;
+    height: 84px;
+    padding: .5rem 1.5rem;
+
+    img { //animates the logo on page load
+        animation: zoom 1s
+    }
+}

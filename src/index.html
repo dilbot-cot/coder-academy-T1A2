@@ -4,30 +4,80 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dillon's Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" href="../docs/favicon.png" type="image/x-icon">
+  <title>Home - Dillon's Portfolio</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="shortcut icon" href="assets/fav-icon.png" type="image/x-icon">
+
 </head>
 <body>
-    <div class="container"> <!--Sets the entire page into an overall container to set flex-->
-      <header class="header"> <!--Sets the 1st section of the page called Header, this will incorporate My logo and the Nav bar-->
-        <img src="" alt="A Logo for Dillon's Portfolio Website" srcset="" class="logo">
-        <nav class="nav">
-          <ul class="navlinks">
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Contact</a></li>
-            <li class="dropdown"><a href="/">Blogs</a>
-              <ul class="dropdown-menu">
-                <li><a href="/">Blog 1</a></li>
-                <li><a href="/">Blog 2</a></li>
-                <li><a href="/">Blog 3</a></li>
-                <li><a href="/">Blog 4</a></li>
-              </ul>
-            </li>
+  <!-- header section -->
+  <div class="container">
+    <header class="header">
+      <a href="/"><img src="assets/fav-icon.png" alt="A Logo of the letter D being lifted from the ground"></a><!--Resuse favicon as logo-->
+    </header>
+  </div>
+  
+  <!-- Navigation section -->
+  <nav class="nav-bar">
+    <div class="container">
+      <ul class="nav-options">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/about.html">About</a></li>
+        <li>
+          <a href="pages/blog.html">Blogs</a> <!--Adds a sublist under the Blogs as a dropdown -->
+          <ul class="blog-dropdown">
+            <li><a href="http://">Blog 1</a></li>
+            <li><a href="http://">Blog 2</a></li>
+            <li><a href="http://">Blog 3</a></li>
+            <li><a href="http://">Blog 4</a></li>
           </ul>
-        </nav>
-      </header>
+        </li>
+        <li><a href="pages/contact.html">Contact</a></li>
+      </ul>
     </div>
+  </nav>
+
+  <!-- Main Section -->
+<div class="container">
+  <section class="jumbotron">
+    <div class="main-image">
+      <h1>Dillon's Portfolio</h1>
+      <img src="assets/hero-img.jpeg" alt="A picture of my wife and me on holiday in New Zealand" srcset=""> 
+      <h2>Welcome!</h2>
+    </div>
+    <div class="main-text">
+      <h2>A brief introduction</h2>
+      <p>I am a Product Manager of DocuSign at Bendigo Adelaide Bank, where I am responsible for the overall use of the platform, escalated enquiries and working with multiple departments on how they may implement DocuSign into their operations.</p>
+      <p>I am also a recent full stack Web Developer with experience in HTML and CSS after studying with Coder Academy.</p>
+      <p>This is my first significant step into the Information Technology sector after a lifetime of high interest.</p>
+    </div>
+  </section>
+</div>
+<!-- Footer section -->
+<div class="container">
+  <footer class="footer">
+    <ul>
+      <li>
+        <a href="#">
+          <img src="assets/github.svg" alt="GitHub">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="assets/linkedin.svg" alt="LinkedIn">
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:14582@coderacademy.edu.au">Contact Me! 
+      <img src="assets/send.png" alt="A Mail Icon" srcset="">
+    </a>
+  </footer>
+
+
+</div>
+
+
+
+  </div>
 </body>
 </html>

@@ -18,3 +18,14 @@ An employer looking to engage a <strong>dev</strong> and/or IT professional, who
 - Technical knowledge relating to information technology, software development/coding, programming languages and development stacks
 - High expectations of professionalism and positive work ethic
 ### Tech stack
+- Terminal
+- Git
+- GitHub
+- HTML:5
+- SASS
+- CSS
+- <webhost>
+- Balsamiq Wireframes
+- Discord
+- Zoom
+- Visual Studio Code
