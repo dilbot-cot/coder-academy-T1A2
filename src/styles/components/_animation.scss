@@ -4,3 +4,12 @@
         height: 0px;
     }
 }
+
+@keyframes spin { // Adds a spin effect - used on the Welcome header
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
