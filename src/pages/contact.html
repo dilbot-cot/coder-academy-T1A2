@@ -4,27 +4,68 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - Dillon's Portfolio</title>
+  <title>Contact - Dillon's Portfolio</title>
   <link rel="stylesheet" href="../styles/style.css">
-  <link rel="shortcut icon" href="" type="image/x-icon"> <!--Find a good icon to appear in HEAD bar-->
+  <link rel="shortcut icon" href="../assets/fav-icon.png" type="image/x-icon">
+
 </head>
 <body>
+  <!-- header section -->
+<header class="header">
   <div class="container">
-    <!-- header component -->
-    <header class="header">
-      <a href="/"><img src=" alt=""></a><!--Resuse favicon as logo-->
-    </header>
-  
-  <!-- Navigation component -->
-    <nav>
-      <ul class="nav-bar">
-        <li><a href="/">About Me</a></li>
-        <li><a href="/">Blog</a></li>
-        <li><a href="/">Contact</a></li>
-      </ul>
-    </nav>
-    
-    
+    <a href="index.html"><img src="../assets/fav-icon.png" alt="A Logo of the letter D being lifted from the ground"></a><!--Resuse favicon as logo-->
   </div>
+</header>
+  
+  <!-- Navigation section -->
+<nav class="nav-bar">
+  <div class="container">
+    <ul class="nav-options">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li>
+        <a href="blog.html">Blogs</a> <!--Adds a sublist under the Blogs as a dropdown -->
+        <ul class="blog-dropdown">
+          <li><a href="http://">Blog 1</a></li>
+          <li><a href="http://">Blog 2</a></li>
+          <li><a href="http://">Blog 3</a></li>
+          <li><a href="http://">Blog 4</a></li>
+        </ul>
+      </li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+  <!-- Main Section -->
+<section class="jumbotron">
+  <div class="container">
+
+  </div>
+</section>
+
+<!-- Footer section -->
+<footer class="footer">
+  <div class="container">
+    <ul class="left-footer">
+      <li>
+        <a href="#">
+          <img src="../assets/github.svg" alt="GitHub">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="../assets/linkedin.svg" alt="LinkedIn">
+        </a>
+      </li>
+    </ul>
+    <div class="contact-foot">
+      <a href="mailto:14582@coderacademy.edu.au">Contact Me! 
+        <img src="../assets/send.png" alt="A Mail Icon" srcset="">
+      </a>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>

@@ -1,0 +1,45 @@
+.footer {
+    background-color: $primary-lightest;
+    width: 100vw;
+    height: 96px;
+    border-top: 4px solid $primary-darkest;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+    .left-footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 50%;
+        li {
+            list-style: none;
+        }
+    }
+
+    .contact-foot { //need the footer split 50/50 half with git & LinkedIn half with a contact me mailto
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-left: 10px;
+        height: 50%;
+        border: 1px solid black;
+        margin: 1rem 1rem 1rem 1rem;
+        background-color: $primary-darkest;
+        border-radius: 8px;
+
+        a {
+            display: flex;
+            align-items: center;
+            color: $off-white;
+            text-decoration: none;
+        }
+        img {
+            margin-right: 1rem;
+            margin-left: .5rem;
+        }
+    }
+}

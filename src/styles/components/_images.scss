@@ -11,5 +11,10 @@
 }
 
 .footer img {
-    width: 64px;
+    width: 48px;
+    }
+
+.contact-foot img {
+    width: 30px;
+    filter: brightness(100%) invert(100%) //Researched how I could make an image white as the black default did not work with the background colour.
 }
