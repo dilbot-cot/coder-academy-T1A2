@@ -3,7 +3,8 @@
     background-color: $off-white;
 
     .container {
-        padding-bottom: 1px;
+        padding-bottom: 1rem;
+        width: 80vw;
     }
 
     h1 {
@@ -22,23 +23,23 @@
         }
     }
     .main-text {
-        width: 80vw;
-        margin: 0 auto 2rem;
         border: 1px solid $highlight;
         border-radius: 15%;
-        padding: 1rem;
         background-color: $highlight;
         color: $off-white;
         box-shadow: 0 0 2rem $primary-lightest;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
 
         h2 {
-        padding-bottom: 1.5rem;
         text-decoration: underline;
+        padding-top: .5rem;
+        padding-bottom: 1rem;
         }
         p {
-        padding-bottom: .75rem;
         font-weight: 400;
         font-size: 16px;
+        padding: 0 1rem 1rem 1rem;
         }
     }
 }
