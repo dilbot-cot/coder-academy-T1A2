@@ -15,13 +15,6 @@
   width: 64px;
 }
 
-.main-image img {
-  width: 80vw;
-  border-radius: 50%;
-  border: 1px solid #0D1B2A;
-  margin: 10px 0px;
-}
-
 .footer img {
   width: 48px;
 }
@@ -121,18 +114,30 @@ body {
   padding-bottom: 1rem;
   width: 80vw;
 }
-.jumbotron h1 {
+.jumbotron .container h1 {
   color: #0D1B2A;
   padding: 1.5rem 0 0.5rem 0;
 }
-.jumbotron .main-image h2 {
+.jumbotron .container h2.welcome {
   color: #0D1B2A;
-  padding: 0.5rem;
-  animation: spin 3s;
+  padding-top: 0.5rem;
 }
-.jumbotron .main-image h2:hover,
-.jumbotron .main-image h2:active {
+.jumbotron .container h2.welcome:hover, .jumbotron .container h2.welcome:active {
   animation: spin 1s infinite;
+}
+.jumbotron .main-image {
+  width: 80vw;
+  height: 80vw;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid black;
+}
+.jumbotron .main-image .image-container {
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/hero-img.jpeg");
+  background-size: cover;
+  background-position: center;
 }
 .jumbotron .main-text {
   border: 1px solid #415A77;
@@ -147,6 +152,7 @@ body {
   text-decoration: underline;
   padding-top: 0.5rem;
   padding-bottom: 1rem;
+  color: #E0E1DD;
 }
 .jumbotron .main-text p {
   font-weight: 400;

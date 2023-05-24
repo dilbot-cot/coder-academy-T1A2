@@ -5,37 +5,55 @@
     .container {
         padding-bottom: 1rem;
         width: 80vw;
+        
+        h1 {
+            color: $primary-darkest;
+            padding: 1.5rem 0 .5rem 0;
+        }
+
+        h2.welcome{
+            color: $primary-darkest;
+            padding-top: .5rem;
+    
+        &:hover,
+        &:active {
+            animation: spin 1s infinite; //if user hovers over the text it will spin faster and infinatley
+            }
+        }   
     }
 
-    h1 {
-        color: $primary-darkest;
-        padding: 1.5rem 0 .5rem 0;
-    }
-    .main-image{
-        h2 {
-            color: $primary-darkest;
-            padding: .5rem;
-            animation: spin 3s; //On page load, Welcome will spin once
+        .main-image{
+            width: 80vw;
+            height: 80vw;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 1px solid black;
+        
+        .image-container {
+            width: 100%;
+            height: 100%;
+            background-image: url("../assets/hero-img.jpeg");
+            background-size: cover;
+            background-position: center;
         }
-        h2:hover,
-        h2:active {
-            animation: spin 1s infinite; //if user hovers over the text it will spin faster and infinatley
-        }
     }
+
     .main-text {
         border: 1px solid $highlight;
         border-radius: 15%;
         background-color: $highlight;
         color: $off-white;
         box-shadow: 0 0 2rem $primary-lightest;
-        margin-top: 1rem;
+        margin-top: 1rem; //adjust here to lessen gap
         margin-bottom: 1rem;
 
         h2 {
         text-decoration: underline;
         padding-top: .5rem;
         padding-bottom: 1rem;
+        color: $off-white
         }
+
         p {
         font-weight: 400;
         font-size: 16px;
