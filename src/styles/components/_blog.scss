@@ -1,18 +1,41 @@
-.blog-cards { //adds images as the cards then on hover or active hides the image
-    background-image: url("../assets/puppy.jpg"); 
-    height: 100px;
-    width: 100px;
+.blog-cards {
+    display: flex;
+    ul {
+        list-style: none;
+    }
+}
+
+.blog-card { //adds images as the cards then on hover or active hides the image
+    height: 100px; //adjustment needed
+    width: 100px; //adjustment needed
     background-size: cover;
     display: flex;
-    a{
-        display: none;
-    }
+    align-items: center;
+    justify-content: center;
 
+    ul{
+        list-style: none;
+    }
+    a{
+        display: inline; //change to none after coding
+    }
     &:hover {
         background-image: none;
-
+        
         a{
             display: inline;
         }
     }
+}
+.blog-card1 {
+    background-image: url("../assets/puppy.jpg"); 
+}
+.blog-card2 {
+    background-image: url("../assets/puppy.jpg"); 
+}
+.blog-card3 {
+    background-image: url("../assets/puppy.jpg"); 
+}
+.blog-card4 {
+    background-image: url("../assets/puppy.jpg"); 
 }

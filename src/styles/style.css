@@ -78,7 +78,6 @@ body {
   justify-content: space-around;
   list-style: none;
   border-bottom: 4px solid #0D1B2A;
-  list-style: none;
   font-weight: 700;
 }
 .nav-bar li {
@@ -203,20 +202,47 @@ input[type=submit]:hover, input[type=submit]:active {
 }
 
 .blog-cards {
-  background-image: url("../assets/puppy.jpg");
+  display: flex;
+}
+.blog-cards ul {
+  list-style: none;
+}
+
+.blog-card {
   height: 100px;
   width: 100px;
   background-size: cover;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.blog-cards a {
-  display: none;
+.blog-card ul {
+  list-style: none;
 }
-.blog-cards:hover {
+.blog-card a {
+  display: inline;
+}
+.blog-card:hover {
   background-image: none;
 }
-.blog-cards:hover a {
+.blog-card:hover a {
   display: inline;
+}
+
+.blog-card1 {
+  background-image: url("../assets/puppy.jpg");
+}
+
+.blog-card2 {
+  background-image: url("../assets/puppy.jpg");
+}
+
+.blog-card3 {
+  background-image: url("../assets/puppy.jpg");
+}
+
+.blog-card4 {
+  background-image: url("../assets/puppy.jpg");
 }
 
 .footer {
