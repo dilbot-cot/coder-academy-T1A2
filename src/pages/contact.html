@@ -45,11 +45,11 @@
       <h4>Either use this handy form, or use any of the other details provided!</h4>
     </div>
     <div class="form-part">
-      <form action="contact-form">
+      <form name="contact-form" method="POST" data-netlify="true">
         <label for="cont-name">Full Name:</label>
         <input type="text" id="cont-name" name="full-name" placeholder="Your Name">
         <label for="cont-email">Enter Email:</label>
-        <input type="email" id="cont-email" name="email" placeholder="Email@Email.com">
+        <input type="email" id="cont-email" name="email" placeholder="your@email.com">
         <label for="cont-message">Your message:</label>
         <textarea id="cont-message" name="message" placeholder="Write your message here:">
         </textarea>
@@ -57,11 +57,15 @@
       </form>
     </div>
     <div class="other-contact">
-
-
-
-
-
+      <img src="../assets/map.png" alt="A map of the Geelong, Victoria area" srcset="">
+      <h4>Location:</h4>
+      <p>123 Fake Street,</p>
+      <p>Geelong, Victoria,</p>
+      <p>Australia</p>
+      <h4>Phone:</h4>
+      <p>+61412 345 678</p>
+      <h4>Email</h4>
+      <p>14582@coderacademy.edu.au</p>
     </div>
   </div>
 </section>

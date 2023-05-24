@@ -18,3 +18,10 @@
     width: 30px;
     filter: brightness(100%) invert(100%) //Researched how I could make an image white as the black default did not work with the background colour.
 }
+
+.other-contact img {
+    width: 80vw;
+    border: 1px solid $primary-darkest;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px $primary-darkest;
+}

@@ -31,6 +31,13 @@
   filter: brightness(100%) invert(100%);
 }
 
+.other-contact img {
+  width: 80vw;
+  border: 1px solid #0D1B2A;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #0D1B2A;
+}
+
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -148,14 +155,22 @@ body {
   padding: 0 1rem 1rem 1rem;
 }
 
+.form-header {
+  padding-top: 1rem;
+}
+.form-header h2 {
+  padding-bottom: 1rem;
+}
+.form-header h4 {
+  padding-bottom: 1.5rem;
+}
+
 input[type=text], input[type=email], select, textarea {
   width: 100%;
-  padding: 12px;
+  padding: 0.75rem;
   border: 1px solid #0D1B2A;
   border-radius: 15px;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+  margin-bottom: 1rem;
 }
 
 input[type=submit] {
@@ -165,7 +180,22 @@ input[type=submit] {
   font-size: 1rem;
   border: none;
   cursor: pointer;
-  border-radius: 50%;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+input[type=submit]:hover, input[type=submit]:active {
+  background-color: #415A77;
+}
+
+.other-contact {
+  color: #0D1B2A;
+}
+.other-contact img {
+  margin-bottom: 1rem;
+}
+.other-contact h4 {
+  padding-bottom: 0.25rem;
+  padding-top: 1rem;
 }
 
 .footer {

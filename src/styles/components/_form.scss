@@ -1,13 +1,19 @@
-
-
+.form-header {
+    padding-top: 1rem;
+    h2 {
+        padding-bottom: 1rem;
+    }
+    h4 {
+        padding-bottom: 1.5rem;
+    }
+}
 input[type=text] , input[type=email], select, textarea {
     width: 100%;
-    padding: 12px;
+    padding: .75rem;
     border: 1px solid $primary-darkest;
     border-radius: 15px;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+    margin-bottom: 1rem;
+
 }
 
 input[type=submit] {
@@ -17,5 +23,22 @@ input[type=submit] {
     font-size: 1rem;
     border: none;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+
+    &:hover,
+    &:active {
+        background-color: $highlight;
+    }
+}
+
+.other-contact {
+    color: $primary-darkest;
+    img {
+        margin-bottom: 1rem;
+    }
+    h4{
+        padding-bottom: .25rem;
+        padding-top: 1rem;
+    }
 }
