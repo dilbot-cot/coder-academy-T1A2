@@ -31,6 +31,38 @@
   box-shadow: 0px 0px 20px #0D1B2A;
 }
 
+.blog-card1 {
+  background-image: url("../assets/puppy.jpg");
+  transition: background-image 2s;
+}
+.blog-card1:hover, .blog-card1:active {
+  background-image: url("../assets/puppy2.png");
+}
+
+.blog-card2 {
+  background-image: url("../assets/puppy.jpg");
+  transition: background-image 2s;
+}
+.blog-card2:hover, .blog-card2:active {
+  background-image: url("../assets/puppy2.png");
+}
+
+.blog-card3 {
+  background-image: url("../assets/puppy.jpg");
+  transition: background-image 2s;
+}
+.blog-card3:hover, .blog-card3:active {
+  background-image: url("../assets/puppy2.png");
+}
+
+.blog-card4 {
+  background-image: url("../assets/puppy.jpg");
+  transition: background-image 2s;
+}
+.blog-card4:hover, .blog-card4:active {
+  background-image: url("../assets/puppy2.png");
+}
+
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -215,10 +247,17 @@ input[type=submit]:hover, input[type=submit]:active {
   padding-top: 1rem;
 }
 
+.blog-header h2 {
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+  color: #0D1B2A;
+}
+
 .blog-cards {
   display: flex;
   flex-wrap: column;
   justify-content: space-between;
+  padding-bottom: 1.5rem;
 }
 .blog-cards ul {
   list-style: none;
@@ -236,31 +275,30 @@ input[type=submit]:hover, input[type=submit]:active {
   justify-content: center;
 }
 .blog-card a {
-  opacity: 0;
+  text-decoration: none;
   color: #0D1B2A;
-}
-.blog-card:hover, .blog-card:active {
-  animation: fade 2s forwards;
+  opacity: 0;
+  transition: opacity 2s;
 }
 .blog-card:hover a, .blog-card:active a {
-  animation: none;
   opacity: 1;
 }
 
-.blog-card1 {
-  background-image: url("../assets/puppy.jpg");
+.blog-text h2 {
+  padding-bottom: 0.5rem;
+  color: #0D1B2A;
+  padding-top: 0.5rem;
+  border-top: 1px dashed #0D1B2A;
 }
-
-.blog-card2 {
-  background-image: url("../assets/puppy.jpg");
+.blog-text h4 {
+  color: #415A77;
+  border-bottom: 1px solid #778DA9;
+  border-top: 1px solid #778DA9;
+  padding: 0.25rem;
 }
-
-.blog-card3 {
-  background-image: url("../assets/puppy.jpg");
-}
-
-.blog-card4 {
-  background-image: url("../assets/puppy.jpg");
+.blog-text p {
+  color: #1B263B;
+  padding: 0.5rem 0 1.5rem 0;
 }
 
 .footer {

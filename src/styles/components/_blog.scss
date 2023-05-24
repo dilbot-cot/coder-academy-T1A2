@@ -1,7 +1,16 @@
+.blog-header {
+    h2 {
+        padding-top: 1.5rem;
+        padding-bottom: .5rem;
+        color: $primary-darkest;
+    }
+}
+
 .blog-cards {
     display: flex;
     flex-wrap: column;
     justify-content: space-between;
+    padding-bottom: 1.5rem;
     ul {
         list-style: none;
         li{
@@ -17,28 +26,33 @@
     align-items: center;
     justify-content: center;
     a{
-        opacity: 0; //had to use opacity instead of a display:none then display, as for some reason it messed up the background image positioning.
+        text-decoration: none;
         color: $primary-darkest;
+        opacity: 0;
+        transition: opacity 2s;
     }
     &:hover,
     &:active {
-        a{
-            animation: none;
-            opacity: 1; //THIS IS NOT WORKING - SEEK HELP IN DISCORD
+        a{ 
+            opacity: 1;
         }
-        animation: fade 2s forwards;
+    }   
+}
+.blog-text {
+    h2 {
+        padding-bottom: .5rem;
+        color: $primary-darkest;
+        padding-top: .5rem;
+        border-top: 1px dashed $primary-darkest;
     }
-}
-
-.blog-card1 {
-    background-image: url("../assets/puppy.jpg"); 
-}
-.blog-card2 {
-    background-image: url("../assets/puppy.jpg"); 
-}
-.blog-card3 {
-    background-image: url("../assets/puppy.jpg"); 
-}
-.blog-card4 {
-    background-image: url("../assets/puppy.jpg"); 
+    h4 {
+        color: $highlight;
+        border-bottom: 1px solid $primary-lightest;
+        border-top: 1px solid $primary-lightest;
+        padding: .25rem;
+    }
+    p {
+        color: $primary-dark;
+        padding: .5rem 0 1.5rem 0;
+    }
 }
