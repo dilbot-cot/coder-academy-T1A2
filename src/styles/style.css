@@ -173,6 +173,10 @@ input[type=text], input[type=email], select, textarea {
   margin-bottom: 1rem;
 }
 
+textarea {
+  height: 150px;
+}
+
 input[type=submit] {
   background-color: #0D1B2A;
   color: #E0E1DD;
@@ -196,6 +200,23 @@ input[type=submit]:hover, input[type=submit]:active {
 .other-contact h4 {
   padding-bottom: 0.25rem;
   padding-top: 1rem;
+}
+
+.blog-cards {
+  background-image: url("../assets/puppy.jpg");
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  display: flex;
+}
+.blog-cards a {
+  display: none;
+}
+.blog-cards:hover {
+  background-image: none;
+}
+.blog-cards:hover a {
+  display: inline;
 }
 
 .footer {

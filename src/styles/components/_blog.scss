@@ -1,0 +1,18 @@
+.blog-cards { //adds images as the cards then on hover or active hides the image
+    background-image: url("../assets/puppy.jpg"); 
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    display: flex;
+    a{
+        display: none;
+    }
+
+    &:hover {
+        background-image: none;
+
+        a{
+            display: inline;
+        }
+    }
+}
