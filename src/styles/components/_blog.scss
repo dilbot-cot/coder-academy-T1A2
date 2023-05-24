@@ -1,32 +1,35 @@
 .blog-cards {
     display: flex;
+    flex-wrap: column;
+    justify-content: space-between;
     ul {
         list-style: none;
-    }
-}
-
-.blog-card { //adds images as the cards then on hover or active hides the image
-    height: 100px; //adjustment needed
-    width: 100px; //adjustment needed
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    ul{
-        list-style: none;
-    }
-    a{
-        display: inline; //change to none after coding
-    }
-    &:hover {
-        background-image: none;
-        
-        a{
-            display: inline;
+        li{
+        display: inline-block;
         }
     }
 }
+.blog-card { //adds images as the cards then on hover or active hides the image
+    height: 35vw;
+    width: 35vw; 
+    background-size: cover;
+    display: flex; //This centers the transparent hyperlinks
+    align-items: center;
+    justify-content: center;
+    a{
+        opacity: 0; //had to use opacity instead of a display:none then display, as for some reason it messed up the background image positioning.
+        color: $primary-darkest;
+    }
+    &:hover,
+    &:active {
+        a{
+            animation: none;
+            opacity: 1; //THIS IS NOT WORKING - SEEK HELP IN DISCORD
+        }
+        animation: fade 2s forwards;
+    }
+}
+
 .blog-card1 {
     background-image: url("../assets/puppy.jpg"); 
 }

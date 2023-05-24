@@ -49,6 +49,14 @@ body {
     transform: rotate(360deg);
   }
 }
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.25;
+  }
+}
 .header {
   background-color: #0D1B2A;
   width: 100vw;
@@ -209,30 +217,34 @@ input[type=submit]:hover, input[type=submit]:active {
 
 .blog-cards {
   display: flex;
+  flex-wrap: column;
+  justify-content: space-between;
 }
 .blog-cards ul {
   list-style: none;
 }
+.blog-cards ul li {
+  display: inline-block;
+}
 
 .blog-card {
-  height: 100px;
-  width: 100px;
+  height: 35vw;
+  width: 35vw;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.blog-card ul {
-  list-style: none;
-}
 .blog-card a {
-  display: inline;
+  opacity: 0;
+  color: #0D1B2A;
 }
-.blog-card:hover {
-  background-image: none;
+.blog-card:hover, .blog-card:active {
+  animation: fade 2s forwards;
 }
-.blog-card:hover a {
-  display: inline;
+.blog-card:hover a, .blog-card:active a {
+  animation: none;
+  opacity: 1;
 }
 
 .blog-card1 {
