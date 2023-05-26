@@ -63,6 +63,11 @@
   background-image: url("../assets/puppy2.png");
 }
 
+.blog-text img {
+  width: 80vw;
+  padding: 24px 0;
+}
+
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -284,6 +289,10 @@ input[type=submit]:hover, input[type=submit]:active {
   opacity: 1;
 }
 
+.blog-text {
+  display: flex;
+  flex-direction: column;
+}
 .blog-text h2 {
   padding-bottom: 0.5rem;
   color: #0D1B2A;
@@ -299,6 +308,10 @@ input[type=submit]:hover, input[type=submit]:active {
 .blog-text p {
   color: #1B263B;
   padding: 0.5rem 0 1.5rem 0;
+}
+
+#blog1 h2 {
+  border-top: none;
 }
 
 .footer {

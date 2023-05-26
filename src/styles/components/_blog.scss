@@ -39,11 +39,15 @@
     }   
 }
 .blog-text {
+    display: flex;
+    flex-direction: column;
+
     h2 {
         padding-bottom: .5rem;
         color: $primary-darkest;
         padding-top: .5rem;
         border-top: 1px dashed $primary-darkest;
+
     }
     h4 {
         color: $highlight;
@@ -54,5 +58,10 @@
     p {
         color: $primary-dark;
         padding: .5rem 0 1.5rem 0;
+    }
+}
+#blog1 {
+    h2{
+        border-top: none;
     }
 }
