@@ -202,7 +202,7 @@ body {
   height: 80vw;
   border-radius: 50%;
   overflow: hidden;
-  border: 1px solid black;
+  border: 1px solid #0D1B2A;
 }
 .jumbotron .main-image .image-container {
   width: 100%;
@@ -316,7 +316,7 @@ input[type=submit]:hover, input[type=submit]:active {
     width: 80vw;
   }
   .jumbotron .container .other-contact .cont {
-    border: 1px solid black;
+    border: 1px solid #0D1B2A;
     border-radius: 15px;
     padding: 0 0.5rem 1rem 0.5rem;
     text-align: center;
@@ -329,7 +329,7 @@ input[type=submit]:hover, input[type=submit]:active {
 @media screen and (min-width: 1024px) {
   .jumbotron .container .form-part {
     width: 30vw;
-    border: 1px solid black;
+    border: 1px solid #0D1B2A;
     border-radius: 15px;
     padding: 1rem;
   }
@@ -341,14 +341,17 @@ input[type=submit]:hover, input[type=submit]:active {
     width: 55vw;
   }
   .jumbotron .container .other-contact .cont {
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0D1B2A;
     border-radius: 15px;
     padding: 0 0.5rem 1rem 0.5rem;
-    text-align: center;
-    margin: auto;
+    height: 114px;
   }
   .jumbotron .container .other-contact img {
-    width: 45vw;
+    width: 55vw;
   }
 }
 .blog-header h2 {
@@ -416,6 +419,7 @@ input[type=submit]:hover, input[type=submit]:active {
 @media screen and (min-width: 1024px) {
   .jumbotron .container .blog-card {
     width: 20vw;
+    background-position: center;
   }
 }
 .work h4 {
@@ -532,7 +536,6 @@ input[type=submit]:hover, input[type=submit]:active {
   align-items: center;
   padding-left: 10px;
   height: 50%;
-  border: 1px solid black;
   margin: 1rem 1rem 1rem 1rem;
   background-color: #0D1B2A;
   border-radius: 8px;
@@ -549,7 +552,7 @@ input[type=submit]:hover, input[type=submit]:active {
   margin-left: 0.5rem;
 }
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 767px) {
   .footer .contact-foot {
     display: none;
   }

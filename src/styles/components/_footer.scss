@@ -26,7 +26,6 @@
         align-items: center;
         padding-left: 10px;
         height: 50%;
-        border: 1px solid black;
         margin: 1rem 1rem 1rem 1rem;
         background-color: $primary-darkest;
         border-radius: 8px;
@@ -45,7 +44,7 @@
     }
 }
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 767px) {
     .footer {
         .contact-foot {
             display: none;
