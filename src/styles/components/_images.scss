@@ -31,27 +31,27 @@
     }
 }
 .blog-card2 {
-    background-image: url("../assets/puppy.jpg"); 
+    background-image: url("../assets/cabin.jpg"); 
     transition: background-image 2s;
     &:hover,
     &:active {
-        background-image: url("../assets/puppy2.png"); 
+        background-image: url("../assets/cabin2.png"); 
     }
 }
 .blog-card3 {
-    background-image: url("../assets/puppy.jpg"); 
+    background-image: url("../assets/camera.jpg"); 
     transition: background-image 2s;
     &:hover,
     &:active {
-        background-image: url("../assets/puppy2.png"); 
+        background-image: url("../assets/camera2.png"); 
     }
 }
 .blog-card4 {
-    background-image: url("../assets/puppy.jpg"); 
+    background-image: url("../assets/bread.jpg"); 
     transition: background-image 2s;
     &:hover,
     &:active {
-        background-image: url("../assets/puppy2.png"); 
+        background-image: url("../assets/bread2.png"); 
     }
 }
 .blog-text img {
@@ -61,4 +61,9 @@
 .resume img {
     width: 24px;
     margin: auto;
+}
+
+.personal img {
+    width: 80vw;
+    border-radius: 15px;
 }

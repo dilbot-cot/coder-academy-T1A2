@@ -1,16 +1,17 @@
 .jumbotron {
     text-align: center;
     background-color: $off-white;
+    width: 100vw;
+    h1 {
+        color: $primary-darkest;
+        padding: 1.5rem 0 .5rem 0;
+    }
 
     .container {
         padding-bottom: 1rem;
         width: 80vw;
         h3 {
             color: $primary-darkest;
-        }
-        h1 {
-            color: $primary-darkest;
-            padding: 1.5rem 0 .5rem 0;
         }
 
         h2.welcome{
@@ -46,7 +47,7 @@
         background-color: $highlight;
         color: $off-white;
         box-shadow: 0 0 2rem $primary-lightest;
-        margin-top: 1rem; //adjust here to lessen gap
+        margin-top: 1rem;
         margin-bottom: 1rem;
 
         h2 {
@@ -60,6 +61,32 @@
         font-weight: 400;
         font-size: 16px;
         padding: 0 1rem 1rem 1rem;
+        }
+    }
+}
+@media screen and (min-width: 768px){ 
+    .jumbotron {
+        .container{
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            width: 95vw;
+            min-height: calc(100vh - 96px - 51px - 92px);
+            align-content: center;
+            .left-split {
+                padding: 0 1rem 0 1rem;
+                .main-image {
+                    width: 40vw;
+                    height: 40vw;
+                }
+            }
+            .main-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 40vw;
+            }
         }
     }
 }

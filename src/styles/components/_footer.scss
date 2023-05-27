@@ -44,3 +44,18 @@
         }
     }
 }
+
+@media screen and (max-width: 799px) {
+    .footer {
+        .contact-foot {
+            display: none;
+        }
+        .container {
+        justify-content: space-evenly;
+        }
+        .left-footer{
+            flex: 2;
+        }
+    }
+    
+}

@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-around;
     overflow: hidden;
+    width: 100vw;
 
     .nav-options {
         display: flex;
@@ -31,9 +32,9 @@
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
     //turns on the dropdown menu when screen size is above 800px
-    .nav-options {
+    .nav-bar .nav-options {
         li:hover,
         li:active {
             .blog-dropdown {
@@ -47,6 +48,14 @@
                     border-bottom:none;
                 }
             }
+        }
+    }
+}
+@media screen and (min-width: 1024px) {
+    .nav-bar .nav-options {
+        justify-content: flex-end;
+        a{
+            padding-right: 2rem;
         }
     }
 }
