@@ -68,6 +68,11 @@
   padding: 24px 0;
 }
 
+.resume img {
+  width: 24px;
+  margin: auto;
+}
+
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -158,6 +163,9 @@ body {
 .jumbotron .container {
   padding-bottom: 1rem;
   width: 80vw;
+}
+.jumbotron .container h3 {
+  color: #0D1B2A;
 }
 .jumbotron .container h1 {
   color: #0D1B2A;
@@ -312,6 +320,63 @@ input[type=submit]:hover, input[type=submit]:active {
 
 #blog1 h2 {
   border-top: none;
+}
+
+.work h4 {
+  color: #0D1B2A;
+}
+.work p {
+  color: #0D1B2A;
+}
+.work ul {
+  list-style: none;
+}
+.work .work-dot {
+  border: 1px solid #0D1B2A;
+  border-radius: 15px;
+  padding: 0.25rem 1rem;
+  margin: 0.5rem 0;
+  background-color: #415A77;
+}
+.work .work-dot p {
+  color: #E0E1DD;
+}
+.work .work-blurb {
+  text-align: center;
+}
+.work .work-blurb li {
+  list-style-type: none;
+  border-bottom: 0.5px dotted #415A77;
+  padding: 0.25rem 0;
+}
+.work .work-blurb li:first-child {
+  border-top: 0.5px dotted #415A77;
+  margin-top: 0.5rem;
+}
+.work .work-blurb li:last-child {
+  margin-bottom: 0.5rem;
+}
+.work .work-blurb .resume {
+  border: 1px solid #415A77;
+  padding: 0.5rem;
+  border-radius: 15px;
+  display: flex;
+  margin: 0.5rem 0;
+  align-items: center;
+}
+.work .work-blurb .resume P {
+  color: #415A77;
+  flex: 2;
+}
+.work .work-blurb .resume a {
+  flex: 0.5;
+}
+
+.personal ul {
+  list-style: none;
+}
+.personal ul li:last-child {
+  margin-bottom: 0.5rem;
 }
 
 .footer {

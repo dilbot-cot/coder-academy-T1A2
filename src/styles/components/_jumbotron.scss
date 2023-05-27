@@ -5,7 +5,9 @@
     .container {
         padding-bottom: 1rem;
         width: 80vw;
-        
+        h3 {
+            color: $primary-darkest;
+        }
         h1 {
             color: $primary-darkest;
             padding: 1.5rem 0 .5rem 0;
