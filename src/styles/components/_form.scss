@@ -45,3 +45,60 @@ input[type=submit] {
         padding-top: 1rem;
     }
 }
+@media screen and (min-width: 768px){
+    .jumbotron {
+        .container{
+            .form-part{
+                padding-top: 2rem;
+                width:95vw;
+            }
+            .other-contact{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                // flex-direction: column;
+                padding-top: 2rem;
+                width: 80vw;
+                .cont {
+                    border: 1px solid black;
+                    border-radius: 15px;
+                    padding: 0 .5rem 1rem .5rem;
+                    text-align: center;
+                    margin: auto;
+                }
+                img {
+                    width: 80vw;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1024px){
+    .jumbotron {
+        .container{
+            .form-part{
+                width:30vw;
+                border: 1px solid black;
+                border-radius: 15px;
+                padding: 1rem;
+            }
+            .other-contact{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                padding-top: 2rem;
+                width: 55vw;
+                .cont {
+                    border: 1px solid black;
+                    border-radius: 15px;
+                    padding: 0 .5rem 1rem .5rem;
+                    text-align: center;
+                    margin: auto;
+                }
+                img {
+                    width: 45vw;
+                }
+            }
+        }
+    }
+}

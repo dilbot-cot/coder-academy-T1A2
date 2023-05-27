@@ -303,6 +303,54 @@ input[type=submit]:hover, input[type=submit]:active {
   padding-top: 1rem;
 }
 
+@media screen and (min-width: 768px) {
+  .jumbotron .container .form-part {
+    padding-top: 2rem;
+    width: 95vw;
+  }
+  .jumbotron .container .other-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 2rem;
+    width: 80vw;
+  }
+  .jumbotron .container .other-contact .cont {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 0 0.5rem 1rem 0.5rem;
+    text-align: center;
+    margin: auto;
+  }
+  .jumbotron .container .other-contact img {
+    width: 80vw;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .jumbotron .container .form-part {
+    width: 30vw;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 1rem;
+  }
+  .jumbotron .container .other-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    width: 55vw;
+  }
+  .jumbotron .container .other-contact .cont {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 0 0.5rem 1rem 0.5rem;
+    text-align: center;
+    margin: auto;
+  }
+  .jumbotron .container .other-contact img {
+    width: 45vw;
+  }
+}
 .blog-header h2 {
   padding-top: 1.5rem;
   padding-bottom: 0.5rem;
