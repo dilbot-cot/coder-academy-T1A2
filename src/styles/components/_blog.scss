@@ -68,11 +68,16 @@
 @media screen and (min-width: 1024px){
     .jumbotron {
         .container{
-          .blog-card{
-            width: 20vw;
-            // height: 20vw;
-            background-position: center
-          }  
+            .blog-card{
+                width: 20vw;
+                background-position: center
+            }
+
+            .blog-text {
+                img {
+                    max-width: 512px;
+                }
+            }
         }
     }
 }

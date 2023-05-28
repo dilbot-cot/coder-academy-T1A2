@@ -237,7 +237,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 95vw;
     min-height: calc(100vh - 96px - 51px - 92px);
     align-content: center;
@@ -252,8 +252,21 @@ body {
   .jumbotron .container .main-text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 40vw;
+    justify-content: space-evenly;
+    width: 45vw;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .jumbotron .container .left-split .main-image {
+    width: 60vw;
+    height: 60vw;
+    max-width: 512px;
+    max-height: 512px;
+  }
+  .jumbotron .container .main-text {
+    width: 25vw;
+    border-radius: 8px;
   }
 }
 .form-header {
@@ -422,6 +435,9 @@ input[type=submit]:hover, input[type=submit]:active {
   .jumbotron .container .blog-card {
     width: 20vw;
     background-position: center;
+  }
+  .jumbotron .container .blog-text img {
+    max-width: 512px;
   }
 }
 .work h4 {
