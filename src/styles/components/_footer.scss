@@ -46,6 +46,7 @@
 }
 
 @media screen and (max-width: 767px) {
+    //when the footer is below tablet size (EG for mobile) it removes the contact me mailto and instead spreads the git and linkedin links evenly 
     .footer {
         .contact-foot {
             display: none;

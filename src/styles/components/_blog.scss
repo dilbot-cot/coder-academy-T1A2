@@ -34,7 +34,7 @@
     &:hover,
     &:active {
         a{ 
-            opacity: 1;
+            opacity: 1; //as the link is hovered, makes the hyperlink text appear solid.
         }
     }   
 }
@@ -69,13 +69,13 @@
     .jumbotron {
         .container{
             .blog-card{
-                width: 20vw;
-                background-position: center
+                width: 20vw; //when in laptop view, the cards alter width so they appear in a single row rather than flex, but not altering height.
+                background-position: center //centers the images as background
             }
 
             .blog-text {
                 img {
-                    max-width: 512px;
+                    max-width: 512px; //sets the maximum image width to be 512px as keeping it with a vw made the images appear really large on bigger viewing sizes.
                 }
             }
         }

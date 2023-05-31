@@ -1,4 +1,5 @@
 * {
+    //defaults page settings
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -8,6 +9,7 @@ html, body {
     height: 100%;
 }
 .container{
+    //sets the container vw to 100 so content appears edge to edge
     width: 100vw;
     margin: 0 auto;
 }

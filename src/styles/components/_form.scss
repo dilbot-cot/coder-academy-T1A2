@@ -15,7 +15,7 @@ input[type=text] , input[type=email], select, textarea {
     margin-bottom: 1rem;
 }
 
-textarea {
+textarea { //sets a standard height for the message input
     height: 150px;
 }
 
@@ -46,6 +46,7 @@ input[type=submit] {
     }
 }
 @media screen and (min-width: 768px){
+    //when displayed for tablet and above, places the contact field and map to the left and right.
     .jumbotron {
         .container{
             .form-part{
@@ -56,9 +57,9 @@ input[type=submit] {
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
-                // flex-direction: column;
                 padding-top: 2rem;
-                width: 80vw;
+                width: 80vw; //found that I needed more space for the map and other contact sections than the form.
+
                 .cont {
                     border: 1px solid $primary-darkest;
                     border-radius: 15px;

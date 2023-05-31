@@ -29,12 +29,12 @@
             list-style-type: none;
             border-bottom: .5px dotted $highlight;
             padding: .25rem 0;
-            &:first-child {
+            &:first-child { //allows a dotted line to appear at the start of the list//
                 border-top: .5px dotted $highlight;
                 margin-top: .5rem;
             }
             &:last-child {
-                margin-bottom: .5rem;
+                margin-bottom: .5rem; //adds margin at the end of the list for spacing
             }
         }
         h4 {
@@ -73,6 +73,7 @@
     .jumbotron {
         .container{
             .work {
+                //when in laptop and above view alters view so that the content is split on left and right of screen, rather than ontop.
                 display: flex;
                 flex-direction: column;
                 flex: 1.5;
@@ -90,7 +91,7 @@
                 flex: 1.5;
                 width: 45vw;
                 padding: 0 1rem 0 1rem;
-                border-right: 1px solid $primary-darkest;
+                border-right: 1px solid $primary-darkest; //adds a page split to clearly demark each section Personal/Work
                 img {
                     width: 35vw;
                     margin: 1rem 0;
