@@ -10,9 +10,15 @@
 This site is designed to showcase my technical skills at website building including HTML coding and CSS styling
 
 ### Functionality / features
-The site contains a shared navigation menu across all pages to show consistency, we have incorporated Semantic HTML for accessability and SEO and 
+The site contains a shared navigation menu across all pages to show consistency, we have incorporated Semantic HTML for accessability and SEO.  
+The site also adjusts it's look and feel when navigating on Mobile, Tablet and Laptop screen sizes.
 ### Sitemap
+![Sitemap](src/assets/sitemap.png)
 ### Screenshots
+![Wireframe for index](src/assets/wireframe-index.png)
+![Wireframe for abount](src/assets/wireframe-about.png)
+![Wireframe for blog](src/assets/wireframe-blog.png)
+![Wireframe for contact](src/assets/wireframe-contact.png)
 ### Target audience
 An employer looking to engage a <strong>dev</strong> and/or IT professional, who has the following knowledge:
 - Technical knowledge relating to information technology, software development/coding, programming languages and development stacks
@@ -24,7 +30,7 @@ An employer looking to engage a <strong>dev</strong> and/or IT professional, who
 - HTML:5
 - SASS
 - CSS
-- <webhost>
+- Netlify
 - Balsamiq Wireframes
 - Discord
 - Zoom
