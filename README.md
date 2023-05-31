@@ -1,6 +1,6 @@
 # This README contains information for the coder-academy Term 1 Assessment 2 - Portfolio.
 
-- [Published portfolio website](src/index.html)
+- [Published portfolio website](https://dillonc.netlify.app/)
 - [GitHub reop](https://github.com/dilbot-cot/coder-academy-T1A2)
 - Presentation video:
 
