@@ -13,9 +13,10 @@
     padding-bottom: 1.5rem;
     ul {
         list-style: none;
-        li{
-        display: inline-block;
-        }
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 .blog-card { //adds images as the cards then on hover or active hides the image
@@ -69,9 +70,10 @@
     .jumbotron {
         .container{
             .blog-card{
-                width: 20vw; //when in laptop view, the cards alter width so they appear in a single row rather than flex, but not altering height.
+                width: 19vw; //when in laptop view, the cards alter width so they appear in a single row rather than flex, but not altering height.
                 background-position: center //centers the images as background
             }
+        }
 
             .blog-text {
                 img {
@@ -80,4 +82,3 @@
             }
         }
     }
-}

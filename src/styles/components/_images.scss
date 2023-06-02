@@ -54,6 +54,14 @@
         background-image: url("../assets/bread2.png"); 
     }
 }
+.blog-card5 {
+    background-image: url("../assets/computer.jpg"); 
+    transition: background-image 2s;
+    &:hover,
+    &:active {
+        background-image: url("../assets/computer2.png"); 
+    }
+}
 .blog-text img {
     width: 80vw;
     padding: 24px 0;
