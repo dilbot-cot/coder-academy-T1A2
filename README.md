@@ -2,7 +2,7 @@
 
 - [Published portfolio website](https://dillonc.netlify.app/)
 - [GitHub reop](https://github.com/dilbot-cot/coder-academy-T1A2)
-- Presentation video:
+- [Presentation video](https://youtu.be/Ukwlk_gvygI)
 
 ## Portfolio Website description
 
