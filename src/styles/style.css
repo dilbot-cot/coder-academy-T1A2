@@ -252,7 +252,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 95vw;
-    min-height: calc(100vh - 96px - 51px - 92px);
+    min-height: calc(100vh - 96px - 51px - 92px - 61px);
     align-content: center;
   }
   .jumbotron .container .left-split {
