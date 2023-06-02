@@ -74,7 +74,7 @@
             flex-wrap: wrap;
             justify-content: space-evenly;
             width: 95vw;
-            min-height: calc(100vh - 96px - 51px - 92px - 61px);
+            min-height: calc(100vh - 96px - 51px - 92px - 61px); //this sets the minimum height for the container, when the content is not large enough, so that there is no empty space underneath the footer
             align-content: center;
             .left-split {
                 padding: 0 1rem 0 1rem;
