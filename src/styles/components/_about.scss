@@ -14,7 +14,8 @@
         padding: .25rem 1rem;
         margin: .5rem 0;
         background-color: $highlight;
-        box-shadow: //researched how I could make a 3D effect with clean lines found on w3school.com (Box Shadow - Multiple Shadows)
+        //researched how I could make a 3D effect with clean lines found on w3school.com (Box Shadow - Multiple Shadows)
+        box-shadow:
             0 0 0 1px $primary-darkest,
             0 1px 2px $primary-darkest,
             0 2px 4px $primary-darkest,
@@ -41,6 +42,7 @@
             margin-top: 1rem;
         }
         .resume {
+            //adds some styling specific for the pdf download section.
             border: 1px solid $highlight;
             padding: .5rem;
             border-radius: 15px;
@@ -73,7 +75,7 @@
     .jumbotron {
         .container{
             .work {
-                //when in laptop and above view alters view so that the content is split on left and right of screen, rather than ontop.
+                //when in desktop view alters  so that the content is split on left and right of screen, rather than ontop.
                 display: flex;
                 flex-direction: column;
                 flex: 1.5;
@@ -91,7 +93,8 @@
                 flex: 1.5;
                 width: 45vw;
                 padding: 0 1rem 0 1rem;
-                border-right: 1px solid $primary-darkest; //adds a page split to clearly demark each section Personal/Work
+                //adds a page split to clearly demark each section Personal/Work
+                border-right: 1px solid $primary-darkest; 
                 img {
                     width: 35vw;
                     margin: 1rem 0;

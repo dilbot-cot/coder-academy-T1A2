@@ -40,42 +40,43 @@
 
   <!-- Main Section -->
 <main>
-<section class="jumbotron">
-  <h1>How to contact</h1>
-  <h4>Either use this handy form, or use any of the other details provided!</h4>
-  <div class="container">
-    <!--Form fields-->
-    <div class="form-part">
-      <form name="contact-form" method="POST" data-netlify="true"> <!--coding found on Netlify on how to make a useable form with submission-->
-        <label for="cont-name">Full Name:</label>
-        <input type="text" id="cont-name" name="full-name" placeholder="Your Name">
-        <label for="cont-email">Enter Email:</label>
-        <input type="email" id="cont-email" name="email" placeholder="your@email.com">
-        <label for="cont-message">Your message:</label>
-        <textarea id="cont-message" name="message" placeholder="Write your message here:"></textarea>
-        <input type="submit" Value="Submit">
-      </form>
+  <section class="jumbotron">
+    <h1>How to contact</h1>
+    <h4>Either use this handy form, or use any of the other details provided!</h4>
+    <div class="container">
+      <!--Input form to contact-->
+      <div class="form-part">
+        <form name="contact-form" method="POST" data-netlify="true"> <!--coding found on Netlify on how to make a useable form with submission-->
+          <label for="cont-name">Full Name:</label>
+          <input type="text" id="cont-name" name="full-name" placeholder="Your Name">
+          <label for="cont-email">Enter Email:</label>
+          <input type="email" id="cont-email" name="email" placeholder="your@email.com">
+          <label for="cont-message">Your message:</label>
+          <textarea id="cont-message" name="message" placeholder="Write your message here:"></textarea>
+          <input type="submit" Value="Submit">
+        </form>
+      </div>
+      <!--Other contact details-->
+      <div class="other-contact">
+        <!-- Map image input -->
+        <img src="../assets/map.png" alt="A map of the Geelong, Victoria area" srcset="">
+        <div class="cont">
+          <h4>Location:</h4>
+          <p>123 Fake Street,</p>
+          <p>Geelong, Victoria,</p>
+          <p>Australia.</p>
+        </div>
+        <div class="cont">
+          <h4>Phone:</h4>
+          <p>+61412 345 678</p>
+        </div>
+        <div class="cont">
+          <h4>Email:</h4>
+          <p>14582@coderacademy.edu.au</p>
+        </div>
+      </div>
     </div>
-    <!--Other contact details-->
-    <div class="other-contact">
-      <img src="../assets/map.png" alt="A map of the Geelong, Victoria area" srcset="">
-      <div class="cont">
-        <h4>Location:</h4>
-        <p>123 Fake Street,</p>
-        <p>Geelong, Victoria,</p>
-        <p>Australia.</p>
-      </div>
-      <div class="cont">
-        <h4>Phone:</h4>
-        <p>+61412 345 678</p>
-      </div>
-      <div class="cont">
-        <h4>Email:</h4>
-        <p>14582@coderacademy.edu.au</p>
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 </main>
 
 <!-- Footer section -->

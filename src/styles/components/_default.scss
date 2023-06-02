@@ -15,6 +15,8 @@ html, body {
 }
 
 @media screen and (min-width: 1024px) {
+    //hides all horizontal overflow, found an issue where horizontal scoll bar appears in full screen.
+    //this was later patched with styling of the Contact Me button, but the code is still helpful.
     body {
         overflow-x: hidden;
     }
