@@ -15,6 +15,11 @@ html, body {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+}
 .header img {
   width: 64px;
 }
@@ -564,7 +569,7 @@ input[type=submit]:hover, input[type=submit]:active {
   align-items: center;
   padding-left: 10px;
   height: 50%;
-  margin: 1rem 1rem 1rem 1rem;
+  margin-right: 2.5rem;
   background-color: #0D1B2A;
   border-radius: 8px;
 }
